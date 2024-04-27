@@ -3,15 +3,14 @@ server:
 spring:
   application:
     name: users
-
-build:
-  version: "3.0"
-greeting: "Welcome to the Users Service Default environment"
-  contactDetails:
-    name: "Joe Bloggs - Developer"
-    email: "Joe@tus.ie"
-    onCallSupport:
-      - (086) 12345678 
+# build:
+#   version: "3.0"
+# greeting: "Welcome to the Users Service Default environment"
+#   contactDetails:
+#     name: "Joe Bloggs - Developer"
+#     email: "Joe@tus.ie"
+#     onCallSupport:
+#       - (086) 12345678 
 db:
   connection: connection-string-here
   host: 127.0.0.1
