@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: userservices
+my:
+  greeting: Hello World
+  list:
+    values: One, Two, Three
+db:
+  connection: connection-string-here
+  host: 127.0.0.1
+  port: 1200
