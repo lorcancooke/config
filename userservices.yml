@@ -1,18 +1,8 @@
-example:
-  property: IAMTHEDEV
 server:
   port: 8081
 spring:
   application:
     name: userservices
-  profiles:
-    active: dev
-
-  management:
-    endpoints:
-      web:
-        exposure:
-          include: 'refresh'
 my:
   greeting: Hello World
   list:
