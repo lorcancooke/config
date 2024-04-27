@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   application:
-    name: users
+    name: userspreferences
 my:
   greeting: Hello World
   list:
